@@ -34,3 +34,6 @@ jobs:
 
       - name: Build production bundle
         run: npm run build
+        env:
+          # Next.js imports the database module during build; no connection is made.
+          DATABASE_URL: postgresql://postgres:postgres@127.0.0.1:5432/app_db

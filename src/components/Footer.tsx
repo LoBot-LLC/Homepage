@@ -9,6 +9,8 @@ import { GITHUB_ORG } from "@/lib/site";
 export function Footer() {
   const { t, lang } = useApp();
   const [now, setNow] = useState<Date | null>(null);
+  // Use the client's date only after hydration so the initial HTML matches.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setNow(new Date()), []);
 
   const year = (now ?? new Date()).getFullYear();

@@ -32,7 +32,9 @@ export function Providers({ children }: { children: ReactNode }) {
   const [theme, setThemeState] = useState<ThemePref>("system");
 
   useEffect(() => {
+    // Restore browser-only preferences after hydration so server and client markup match.
     const storedLang = localStorage.getItem("lobot-lang") as Lang | null;
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     if (storedLang && storedLang in dictionaries) setLangState(storedLang);
     const storedTheme = localStorage.getItem("lobot-theme") as ThemePref | null;
     if (storedTheme === "light" || storedTheme === "dark" || storedTheme === "system") setThemeState(storedTheme);
