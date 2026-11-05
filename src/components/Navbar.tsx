@@ -77,6 +77,8 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
+  // Close the menu after any navigation, including browser back/forward.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMobileOpen(false), [pathname]);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 8);
