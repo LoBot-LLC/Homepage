@@ -232,10 +232,6 @@ LoBot LLC — [https://github.com/LoBot-LLC](https://github.com/LoBot-LLC)
 **Company Contact**  
 📧 lobotllc@atomicmail.io
 
-**Flagship Product**  
-TecnoIndicator — [https://tecnoindicator.vercel.app](https://tecnoindicator.vercel.app)  
-[GitHub](https://github.com/LoBot-LLC/TecnoIndicator)
-
 ---
 
-*Built with AI agents and human developers working together.*
+*Built with AI agents and human developers working together, all as a team.*
