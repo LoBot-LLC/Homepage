@@ -105,12 +105,12 @@ const es: Dict = {
     intro:
       "TecnoIndicator es el producto insignia de LoBot: una aplicación web moderna con IA que ofrece pronósticos de precios de energía con visualizaciones interactivas, análisis de escenarios y factores dinámicos, para presupuestar, cubrir riesgos y formular planes sólidos con confianza.",
     problem: {
-      title: "Planteamiento del problema",
+      title: "Problema central",
       lead: "La energía es una de las partidas más grandes y menos predecibles para cualquier empresa que mueve bienes u opera instalaciones.",
       items: [
-        "Los precios de combustible, electricidad y agua oscilan con la geopolítica, la OPEP+, el clima y la regulación, pero los presupuestos y contratos se fijan con años de antelación.",
+        "Los precios de combustible, electricidad y agua oscilan con la geopolítica, el clima y la regulación, pero los presupuestos y contratos se fijan con años de antelación.",
         "Los pronósticos profesionales de proveedores empresariales cuestan miles de dólares por usuario y requieren analistas capacitados.",
-        "Las fuentes gratuitas están fragmentadas, suelen ser de corto plazo (1–2 años) y rara vez explican los factores detrás de una cifra.",
+        "Las fuentes están fragmentadas, suelen ser de corto plazo (1–2 años) y rara vez explican los factores detrás de las cifras.",
         "Los equipos terminan con hojas de cálculo de supuestos obsoletos, reaccionando a los choques de precios en vez de planificarlos.",
       ],
     },
