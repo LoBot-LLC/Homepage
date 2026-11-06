@@ -105,12 +105,12 @@ const es: Dict = {
     intro:
       "TecnoIndicator es el producto insignia de LoBot: una aplicación web moderna con IA que ofrece pronósticos de precios de energía con visualizaciones interactivas, análisis de escenarios y factores dinámicos, para presupuestar, cubrir riesgos y formular planes sólidos con confianza.",
     problem: {
-      title: "Planteamiento del problema",
+      title: "Problema central",
       lead: "La energía es una de las partidas más grandes y menos predecibles para cualquier empresa que mueve bienes u opera instalaciones.",
       items: [
-        "Los precios de combustible, electricidad y agua oscilan con la geopolítica, la OPEP+, el clima y la regulación, pero los presupuestos y contratos se fijan con años de antelación.",
+        "Los precios de combustible, electricidad y agua oscilan con la geopolítica, el clima y la regulación, pero los presupuestos y contratos se fijan con años de antelación.",
         "Los pronósticos profesionales de proveedores empresariales cuestan miles de dólares por usuario y requieren analistas capacitados.",
-        "Las fuentes gratuitas están fragmentadas, suelen ser de corto plazo (1–2 años) y rara vez explican los factores detrás de una cifra.",
+        "Las fuentes están fragmentadas, suelen ser de corto plazo (1–2 años) y rara vez explican los factores detrás de las cifras.",
         "Los equipos terminan con hojas de cálculo de supuestos obsoletos, reaccionando a los choques de precios en vez de planificarlos.",
       ],
     },
@@ -237,11 +237,11 @@ const es: Dict = {
     believe: {
       title: "En qué creemos",
       items: [
-        { title: "La confianza es la prioridad #1", desc: "Con usuarios, comunidad y entre nosotros: la confianza se gana a diario y nunca se negocia." },
-        { title: "Resultados sobre volumen", desc: "Siempre medimos el impacto en cómo operamos y entregamos." },
+        { title: "La confianza es la prioridad principal", desc: "Con usuarios, comunidad y entre nosotros: la confianza se gana a diario y nunca se negocia." },
+        { title: "Calidad sobre volumen", desc: "Siempre medimos el impacto en cómo operamos y entregamos." },
         { title: "La tecnología debe beneficiar a todos", desc: "Creamos herramientas accesibles que nivelan el terreno de juego." },
         { title: "Responsabilidad", desc: "Asumimos nuestras decisiones, errores y logros." },
-        { title: "Tolerancia cero al comportamiento monopolístico", desc: "Competimos con justicia, somos abiertos y nunca atrapamos a los usuarios." },
+        { title: "Decir NO al comportamiento monopolístico", desc: "Competimos con justicia, somos abiertos y nunca atrapamos a los usuarios." },
         { title: "Colaboración humano-IA", desc: "Los mejores resultados surgen cuando personas e IA trabajan juntas." },
       ],
     },
@@ -256,7 +256,7 @@ const es: Dict = {
       ],
     },
     roles: {
-      title: "Vacantes abiertas",
+      title: "Puestos para postularse",
       subtitle: "Todas las vacantes están abiertas a candidatos internacionales.",
       apply: "Postular",
       chooseOne: "Elige una especialidad:",

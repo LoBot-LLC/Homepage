@@ -144,12 +144,12 @@ const en = {
     intro:
       "TecnoIndicator is LoBot's flagship product: a modern, AI-powered web application that delivers energy price forecasts with interactive visualizations, scenario analysis and dynamic factor insights — so managers can budget, hedge risk and confidently formulate sound plans.",
     problem: {
-      title: "Problem statement",
+      title: "Core problem",
       lead: "Energy is one of the largest and least predictable line items for any business that moves goods or runs facilities.",
       items: [
-        "Fuel, power and water prices swing violently with geopolitics, OPEC+ decisions, weather and regulation — yet budgets and contracts must be locked in years ahead.",
+        "Fuel, power and water prices swing violently with geopolitics, weather and regulatory decisions — yet budgets and contracts must be locked in years ahead.",
         "Professional forecasts from enterprise intelligence vendors cost thousands of dollars per seat and require trained analysts to interpret.",
-        "Free sources (government outlooks, news) are fragmented, usually short-term (1–2 years) and rarely explain the drivers behind a number.",
+        "Sources (government outlooks, news) are fragmented, usually short-term (1–2 years) and rarely explain the drivers behind the numbers.",
         "Teams end up with spreadsheets of stale assumptions, reacting to price shocks instead of planning for them.",
       ],
     },
@@ -200,16 +200,16 @@ const en = {
   },
   about: {
     eyebrow: "About LoBot LLC",
-    title: "Empowering better business decisions through AI and open source",
+    title: "Empowering better business decisions through AI and the open source ecosystem",
     subtitle:
       "LoBot LLC is a fast-moving, AI-native startup building logistics and business solutions that help organizations of every size future-proof their operations.",
     mission: {
       title: "Our core missions",
       items: [
-        { title: "Empower businesses", desc: "Robust logistics and productivity solutions that help small, medium and large businesses make better decisions." },
-        { title: "AI-powered innovation", desc: "Accelerate our products with cutting-edge AI tools built on proven open-source foundations." },
-        { title: "Open source at our core", desc: "Drive innovation, transparency and collaboration — and contribute back to the ecosystems we rely on." },
-        { title: "Scale for enterprises", desc: "Architectures designed for growth, reliability and maintainability, from startups to large enterprises." },
+        { title: "Empower and control businesses", desc: "Robust logistics and productivity solutions that help small, medium and large businesses make better decisions." },
+        { title: "Creative innovation with AI", desc: "Accelerate our products with cutting-edge AI tools built on proven open-source foundations." },
+        { title: "Open source at the center", desc: "Drive innovation, transparency and collaboration — and contribute back to the ecosystems we rely on." },
+        { title: "Expand capabilities for all enterprises", desc: "Architectures designed for growth, reliability and maintainability, from startups to large enterprises." },
       ],
     },
     deliver: {
@@ -227,7 +227,7 @@ const en = {
       subtitle: "Modern web technologies and proven open-source frameworks.",
     },
     milestones: {
-      title: "Company milestones",
+      title: "LoBot's bumpy journey",
       items: [
         { date: "Sep 2026", title: "TecnoIndicator is born", desc: "Our flagship energy price forecasting app is released as open source." },
         { date: "Oct 2026", title: "LoBot LLC is founded", desc: "LoBot LLC is officially founded." },
@@ -250,7 +250,7 @@ const en = {
     culture: {
       title: "Work culture",
       items: [
-        { title: "Fast-moving", desc: "We ship small, ship often and learn from real users every week." },
+        { title: "Rapid change", desc: "We ship small, ship often and learn from real users every week." },
         { title: "AI-native", desc: "AI agents work as helpful co-developers, writing and testing code alongside us." },
         { title: "Human-centric", desc: "Technology serves decision makers who are facing tough decisions." },
         { title: "Transparency", desc: "Open source, open roadmaps and honest communication by default." },
@@ -279,11 +279,11 @@ const en = {
     believe: {
       title: "What we believe",
       items: [
-        { title: "Trust is the #1 priority", desc: "With our users, our community and each other — trust is earned daily and never traded." },
-        { title: "Outcomes over volume", desc: "We always measure the impact on how we operate and deliver." },
+        { title: "Trust is the top priority", desc: "With our users, our community and each other — trust is earned daily and never traded." },
+        { title: "Quality over volume", desc: "We always measure the impact on how we operate and deliver." },
         { title: "Technology must benefit everyone", desc: "We build accessible tools that level the playing field." },
         { title: "Accountability", desc: "We own our decisions, our mistakes and our wins." },
-        { title: "Zero tolerance on monopolistic behavior", desc: "We compete fairly, stay open and never lock users in." },
+        { title: "Say NO to monopolistic behavior", desc: "We compete fairly, stay open and never lock users in." },
         { title: "Human & AI collaboration", desc: "The best results come from people and AI working together." },
       ],
     },
@@ -298,7 +298,7 @@ const en = {
       ],
     },
     roles: {
-      title: "Open roles",
+      title: "Roles to apply for",
       subtitle: "All roles are open to international candidates.",
       apply: "Apply",
       chooseOne: "Choose one track:",

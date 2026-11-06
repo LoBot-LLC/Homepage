@@ -105,12 +105,12 @@ const vi: Dict = {
     intro:
       "TecnoIndicator là sản phẩm chủ lực của LoBot: ứng dụng web hiện đại tích hợp AI, cung cấp dự báo giá năng lượng với biểu đồ tương tác, phân tích kịch bản và các yếu tố động — giúp nhà quản lý lập ngân sách, phòng ngừa rủi ro và tự tin đưa ra kế hoạch hợp lý.",
     problem: {
-      title: "Vấn đề đặt ra",
+      title: "Vấn đề cốt lõi",
       lead: "Năng lượng là một trong những khoản chi lớn nhất và khó đoán nhất với mọi doanh nghiệp vận chuyển hàng hóa hay vận hành cơ sở.",
       items: [
-        "Giá nhiên liệu, điện và nước biến động mạnh theo địa chính trị, OPEC+, thời tiết và quy định — nhưng ngân sách và hợp đồng phải chốt trước nhiều năm.",
+        "Giá nhiên liệu, điện và nước biến động mạnh theo các yếu tố địa chính trị, thời tiết và các chính sách pháp lý khác nhau,...... nhưng ngân sách và hợp đồng phải chốt trước nhiều năm.",
         "Dự báo chuyên nghiệp từ các nhà cung cấp doanh nghiệp tốn hàng nghìn đô mỗi người dùng và cần chuyên viên phân tích.",
-        "Nguồn miễn phí thì rời rạc, thường ngắn hạn (1–2 năm) và hiếm khi giải thích nguyên nhân đằng sau con số.",
+        "Các nguồn miễn phí thì rời rạc, thường ngắn hạn (1–2 năm) và hiếm khi giải thích nguyên nhân đằng sau các con số.",
         "Các nhóm cuối cùng dùng bảng tính với giả định cũ, phản ứng với cú sốc giá thay vì lên kế hoạch trước.",
       ],
     },
@@ -161,16 +161,16 @@ const vi: Dict = {
   },
   about: {
     eyebrow: "Về LoBot LLC",
-    title: "Thúc đẩy quyết định kinh doanh tốt hơn bằng AI và mã nguồn mở",
+    title: "Thúc đẩy quyết định kinh doanh tốt hơn bằng AI và hệ sinh thái mã nguồn mở",
     subtitle:
       "LoBot LLC là startup AI-native chuyển động nhanh, xây dựng giải pháp logistics và kinh doanh giúp tổ chức ở mọi quy mô chuẩn bị cho tương lai.",
     mission: {
       title: "Sứ mệnh cốt lõi",
       items: [
-        { title: "Trao quyền cho doanh nghiệp", desc: "Giải pháp logistics và năng suất mạnh mẽ giúp doanh nghiệp nhỏ, vừa và lớn ra quyết định tốt hơn." },
-        { title: "Đổi mới bằng AI", desc: "Tăng tốc sản phẩm bằng công cụ AI tiên tiến trên nền tảng mã nguồn mở đã được kiểm chứng." },
-        { title: "Mã nguồn mở là cốt lõi", desc: "Thúc đẩy đổi mới, minh bạch và hợp tác — đóng góp ngược lại cho hệ sinh thái." },
-        { title: "Mở rộng cho doanh nghiệp", desc: "Kiến trúc thiết kế cho tăng trưởng, độ tin cậy và dễ bảo trì, từ startup đến tập đoàn." },
+        { title: "Trao quyền KIỂM SOÁT cho doanh nghiệp", desc: "Giải pháp logistics và năng suất mạnh mẽ giúp doanh nghiệp nhỏ, vừa và lớn ra quyết định tốt hơn." },
+        { title: "Đổi mới sáng tạo cùng AI", desc: "Tăng tốc sản phẩm bằng công cụ AI tiên tiến trên nền tảng mã nguồn mở đã được kiểm chứng." },
+        { title: "Mã nguồn mở làm trung tâm", desc: "Thúc đẩy đổi mới, minh bạch và hợp tác — đóng góp ngược lại cho hệ sinh thái." },
+        { title: "Mở rộng khả năng cho mọi doanh nghiệp", desc: "Kiến trúc thiết kế cho tăng trưởng, độ tin cậy và dễ bảo trì, từ startup đến tập đoàn." },
       ],
     },
     deliver: {
@@ -185,7 +185,7 @@ const vi: Dict = {
     },
     stack: { title: "Công nghệ sử dụng", subtitle: "Công nghệ web hiện đại và framework mã nguồn mở đã được kiểm chứng." },
     milestones: {
-      title: "Cột mốc công ty",
+      title: "Hành trình chông gai của LoBot",
       items: [
         { date: "Th9 2026", title: "TecnoIndicator ra đời", desc: "Ứng dụng dự báo giá năng lượng chủ lực được phát hành dưới mã nguồn mở." },
         { date: "Th10 2026", title: "Thành lập LoBot LLC", desc: "LoBot LLC được chính thức thành lập." },
@@ -208,7 +208,7 @@ const vi: Dict = {
     culture: {
       title: "Văn hóa làm việc",
       items: [
-        { title: "Chuyển động nhanh", desc: "Phát hành nhỏ, thường xuyên và học hỏi từ người dùng thật mỗi tuần." },
+        { title: "Thay đổi nhanh", desc: "Phát hành nhỏ, thường xuyên và học hỏi từ người dùng thật mỗi tuần." },
         { title: "AI-native", desc: "Các AI agent làm co-developer hữu ích, cùng viết và kiểm tra mã nguồn." },
         { title: "Lấy con người làm trung tâm", desc: "Công nghệ phục vụ các decision maker đưa ra quyết định đang gặp khó khăn." },
         { title: "Minh bạch", desc: "Mã nguồn mở, lộ trình mở và giao tiếp trung thực." },
@@ -237,11 +237,11 @@ const vi: Dict = {
     believe: {
       title: "Chúng tôi tin vào",
       items: [
-        { title: "Niềm tin là ưu tiên số 1", desc: "Với người dùng, cộng đồng và đồng nghiệp — niềm tin được xây dựng mỗi ngày." },
-        { title: "Kết quả hơn số lượng", desc: "Chúng tôi luôn đo lường các tác động ảnh hưởng đến quá trình hoạt động của chúng tôi." },
+        { title: "Niềm tin là ưu tiên hàng đầu", desc: "Với người dùng, cộng đồng và đồng nghiệp — niềm tin được xây dựng mỗi ngày." },
+        { title: "Chất lượng hơn số lượng", desc: "Chúng tôi luôn đo lường các tác động ảnh hưởng đến quá trình hoạt động của chúng tôi." },
         { title: "Công nghệ phải phục vụ mọi người", desc: "Xây dựng công cụ dễ tiếp cận, tạo sân chơi bình đẳng." },
         { title: "Trách nhiệm", desc: "Chúng tôi chịu trách nhiệm về quyết định, sai lầm và thành công của mình." },
-        { title: "Không khoan nhượng với hành vi độc quyền", desc: "Cạnh tranh công bằng, luôn mở và không bao giờ khóa chân người dùng." },
+        { title: "Nói KHÔNG với hành vi độc quyền", desc: "Cạnh tranh công bằng, luôn mở và không bao giờ khóa chân người dùng." },
         { title: "Hợp tác giữa con người & AI", desc: "Kết quả tốt nhất đến từ con người và AI cùng làm việc." },
       ],
     },
@@ -256,7 +256,7 @@ const vi: Dict = {
       ],
     },
     roles: {
-      title: "Vị trí đang tuyển",
+      title: "Vị trí ứng tuyển",
       subtitle: "Tất cả vị trí đều mở cho ứng viên quốc tế.",
       apply: "Ứng tuyển",
       chooseOne: "Chọn một hướng:",
