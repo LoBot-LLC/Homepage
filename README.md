@@ -2,6 +2,8 @@
 
 The official landing website for **LoBot LLC** — an AI-native startup building logistics and business solutions that help organizations of every size make future-ready strategic decisions.
 
+<img width="2048" height="1152" alt="lobotintro" src="https://github.com/user-attachments/assets/562df521-125c-4a42-96c2-513a49e4c1be" />
+
 ## 🏢 About LoBot LLC
 
 LoBot LLC is a fast-moving, AI-native company founded in October 2026. Our mission is simple:
