@@ -1,5 +1,5 @@
 import { desc, eq, sql } from "drizzle-orm";
-import { db } from "@/db";
+import { getDb } from "@/db";
 import { blogPosts, type BlogPost, type BlogTranslations } from "@/db/schema";
 
 export type PublicPost = Pick<BlogPost, "slug" | "author" | "coverEmoji" | "publishedAt" | "translations">;
@@ -59,8 +59,9 @@ let ready: Promise<void> | null = null;
 /** Ensures the table exists and seed posts are present (idempotent, runs once per process). */
 function ensureReady(): Promise<void> {
   if (!ready) {
-    ready = (async () => {
-      await db.execute(sql`
+  ready = (async () => {
+    const d = getDb();
+    await d.execute(sql`
         CREATE TABLE IF NOT EXISTS blog_posts (
           id serial PRIMARY KEY,
           slug text NOT NULL UNIQUE,
@@ -70,10 +71,10 @@ function ensureReady(): Promise<void> {
           translations jsonb NOT NULL,
           created_at timestamptz NOT NULL DEFAULT now()
         )`);
-      await db.insert(blogPosts).values(SEED_POSTS).onConflictDoNothing({ target: blogPosts.slug });
+      await d.insert(blogPosts).values(SEED_POSTS).onConflictDoNothing({ target: blogPosts.slug });
       // The code owns the seeded editorial posts: keep existing rows in sync with copy changes.
       for (const post of SEED_POSTS) {
-        await db
+        await d
           .update(blogPosts)
           .set({ translations: post.translations, publishedAt: post.publishedAt, coverEmoji: post.coverEmoji })
           .where(eq(blogPosts.slug, post.slug));
@@ -97,7 +98,7 @@ const select = {
 export async function listPosts(): Promise<PublicPost[]> {
   try {
     await ensureReady();
-    return await db.select(select).from(blogPosts).orderBy(desc(blogPosts.publishedAt), desc(blogPosts.id));
+    return await getDb().select(select).from(blogPosts).orderBy(desc(blogPosts.publishedAt), desc(blogPosts.id));
   } catch (err) {
     console.error("[blog] falling back to seed posts:", err);
     return SEED_POSTS;
@@ -107,7 +108,7 @@ export async function listPosts(): Promise<PublicPost[]> {
 export async function getPost(slug: string): Promise<PublicPost | null> {
   try {
     await ensureReady();
-    const rows = await db.select(select).from(blogPosts).where(eq(blogPosts.slug, slug)).limit(1);
+    const rows = await getDb().select(select).from(blogPosts).where(eq(blogPosts.slug, slug)).limit(1);
     return rows[0] ?? null;
   } catch (err) {
     console.error("[blog] falling back to seed posts:", err);
