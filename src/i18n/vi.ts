@@ -237,11 +237,11 @@ const vi: Dict = {
     believe: {
       title: "Chúng tôi tin vào",
       items: [
-        { title: "Niềm tin là ưu tiên số 1", desc: "Với người dùng, cộng đồng và đồng nghiệp — niềm tin được xây dựng mỗi ngày." },
-        { title: "Kết quả hơn số lượng", desc: "Chúng tôi luôn đo lường các tác động ảnh hưởng đến quá trình hoạt động của chúng tôi." },
+        { title: "Niềm tin là ưu tiên hàng đầu", desc: "Với người dùng, cộng đồng và đồng nghiệp — niềm tin được xây dựng mỗi ngày." },
+        { title: "Chất lượng hơn số lượng", desc: "Chúng tôi luôn đo lường các tác động ảnh hưởng đến quá trình hoạt động của chúng tôi." },
         { title: "Công nghệ phải phục vụ mọi người", desc: "Xây dựng công cụ dễ tiếp cận, tạo sân chơi bình đẳng." },
         { title: "Trách nhiệm", desc: "Chúng tôi chịu trách nhiệm về quyết định, sai lầm và thành công của mình." },
-        { title: "Không khoan nhượng với hành vi độc quyền", desc: "Cạnh tranh công bằng, luôn mở và không bao giờ khóa chân người dùng." },
+        { title: "Nói KHÔNG với hành vi độc quyền", desc: "Cạnh tranh công bằng, luôn mở và không bao giờ khóa chân người dùng." },
         { title: "Hợp tác giữa con người & AI", desc: "Kết quả tốt nhất đến từ con người và AI cùng làm việc." },
       ],
     },
@@ -256,7 +256,7 @@ const vi: Dict = {
       ],
     },
     roles: {
-      title: "Vị trí đang tuyển",
+      title: "Vị trí ứng tuyển",
       subtitle: "Tất cả vị trí đều mở cho ứng viên quốc tế.",
       apply: "Ứng tuyển",
       chooseOne: "Chọn một hướng:",

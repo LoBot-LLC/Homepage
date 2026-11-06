@@ -237,11 +237,11 @@ const es: Dict = {
     believe: {
       title: "En qué creemos",
       items: [
-        { title: "La confianza es la prioridad #1", desc: "Con usuarios, comunidad y entre nosotros: la confianza se gana a diario y nunca se negocia." },
-        { title: "Resultados sobre volumen", desc: "Siempre medimos el impacto en cómo operamos y entregamos." },
+        { title: "La confianza es la prioridad principal", desc: "Con usuarios, comunidad y entre nosotros: la confianza se gana a diario y nunca se negocia." },
+        { title: "Calidad sobre volumen", desc: "Siempre medimos el impacto en cómo operamos y entregamos." },
         { title: "La tecnología debe beneficiar a todos", desc: "Creamos herramientas accesibles que nivelan el terreno de juego." },
         { title: "Responsabilidad", desc: "Asumimos nuestras decisiones, errores y logros." },
-        { title: "Tolerancia cero al comportamiento monopolístico", desc: "Competimos con justicia, somos abiertos y nunca atrapamos a los usuarios." },
+        { title: "Decir NO al comportamiento monopolístico", desc: "Competimos con justicia, somos abiertos y nunca atrapamos a los usuarios." },
         { title: "Colaboración humano-IA", desc: "Los mejores resultados surgen cuando personas e IA trabajan juntas." },
       ],
     },
@@ -256,7 +256,7 @@ const es: Dict = {
       ],
     },
     roles: {
-      title: "Vacantes abiertas",
+      title: "Puestos para postularse",
       subtitle: "Todas las vacantes están abiertas a candidatos internacionales.",
       apply: "Postular",
       chooseOne: "Elige una especialidad:",
