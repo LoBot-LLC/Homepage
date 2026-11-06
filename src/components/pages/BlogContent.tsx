@@ -81,8 +81,8 @@ export function BlogArticle({ post }: { post: PublicPost }) {
         ))}
       </div>
       <div className="mt-12 flex flex-wrap gap-3">
-        <Link href="/products/tecnoindicator" className="btn-primary">TecnoIndicator <ArrowRight className="h-4 w-4" /></Link>
         <Link href="/careers" className="btn-secondary">{t.nav.careers}</Link>
+        <Link href="/careers#apply" className="btn-primary">{t.careers.cta.title}</Link>
       </div>
     </article>
   );
