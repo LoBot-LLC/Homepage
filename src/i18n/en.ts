@@ -213,7 +213,7 @@ const en = {
       ],
     },
     deliver: {
-      title: "The value LoBot delivers",
+      title: "LoBot's values",
       items: [
         "Logistics optimization tools for real-time tracking and decision-making",
         "Business productivity solutions that integrate with existing workflows",
@@ -235,7 +235,7 @@ const en = {
       ],
     },
     community: {
-      title: "Open-source community",
+      title: "LoBot's Open-source community",
       subtitle: "Live statistics from the LoBot-LLC GitHub organization.",
       developers: "Developers (est.)",
       developersNote: "developers + AI agents",
