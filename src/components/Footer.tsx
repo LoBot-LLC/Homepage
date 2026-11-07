@@ -37,7 +37,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 aria-label="LoBot LLC on GitHub"
                 data-testid="footer-github"
-                className="h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
               >
                 <GithubIcon />
               </a>
@@ -46,7 +46,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 aria-label="LoBot LLC main website"
                 data-testid="footer-website"
-                className="h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
+                className="inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
               >
                 <Image src="/favicon.svg" alt="LoBot LLC logo" width={32} height={32} />
               </a>
