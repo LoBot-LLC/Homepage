@@ -208,7 +208,7 @@ const vi: Dict = {
     culture: {
       title: "Văn hóa làm việc",
       items: [
-        { title: "Thay đổi nhanh", desc: "Phát hành nhỏ, thường xuyên và học hỏi từ người dùng thật mỗi tuần." },
+        { title: "Thích ứng nhanh", desc: "Tung ra các bản cập nhật nhỏ, thường xuyên và luôn học hỏi từ khách hàng." },
         { title: "AI-native", desc: "Các AI agent làm co-developer hữu ích, cùng viết và kiểm tra mã nguồn." },
         { title: "Lấy con người làm trung tâm", desc: "Công nghệ phục vụ các decision maker đưa ra quyết định đang gặp khó khăn." },
         { title: "Minh bạch", desc: "Mã nguồn mở, lộ trình mở và giao tiếp trung thực." },
