@@ -250,7 +250,7 @@ const en = {
     culture: {
       title: "Work culture",
       items: [
-        { title: "Rapid change", desc: "We ship small, ship often and learn from real users every week." },
+        { title: "Agile", desc: "Ship small, ship often and learn from real customers - continuously." },
         { title: "AI-native", desc: "AI agents work as helpful co-developers, writing and testing code alongside us." },
         { title: "Human-centric", desc: "Technology serves decision makers who are facing tough decisions." },
         { title: "Transparency", desc: "Open source, open roadmaps and honest communication by default." },
