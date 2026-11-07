@@ -228,6 +228,9 @@ const vi: Dict = {
     minRead: "phút đọc",
     empty: "Chưa có bài viết — hãy quay lại sau.",
     notFound: "Không tìm thấy bài viết",
+    tryTecnoIndicator: "Dùng thử TecnoIndicator",
+    applyNow: "Ứng tuyển ngay!",
+    references: "Tài liệu tham khảo",
   },
   careers: {
     eyebrow: "Tuyển dụng tại LoBot",
