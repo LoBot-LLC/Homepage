@@ -227,7 +227,7 @@ const en = {
       subtitle: "Modern web technologies and proven open-source frameworks.",
     },
     milestones: {
-      title: "LoBot's bumpy journey",
+      title: "LoBot's meticulous journey",
       items: [
         { date: "Sep 2026", title: "TecnoIndicator is born", desc: "Our flagship energy price forecasting app is released as open source." },
         { date: "Oct 2026", title: "LoBot LLC is founded", desc: "LoBot LLC is officially founded." },
