@@ -208,18 +208,18 @@ const vi: Dict = {
     culture: {
       title: "Văn hóa làm việc",
       items: [
-        { title: "Thay đổi nhanh", desc: "Phát hành nhỏ, thường xuyên và học hỏi từ người dùng thật mỗi tuần." },
+        { title: "Thích ứng nhanh", desc: "Tung ra các bản cập nhật nhỏ, thường xuyên và luôn học hỏi từ khách hàng." },
         { title: "AI-native", desc: "Các AI agent làm co-developer hữu ích, cùng viết và kiểm tra mã nguồn." },
         { title: "Lấy con người làm trung tâm", desc: "Công nghệ phục vụ các decision maker đưa ra quyết định đang gặp khó khăn." },
         { title: "Minh bạch", desc: "Mã nguồn mở, lộ trình mở và giao tiếp trung thực." },
         { title: "Gần gũi, thân thiện với người dùng", desc: "Cộng đồng LoBot luôn gần gũi với người dùng — mỗi phản hồi định hình mỗi bản phát hành mới cho các sản phẩm LoBot." },
         { title: "Cộng đồng quốc tế đông đảo", desc: "Đội ngũ và cộng đồng phân tán ở nhiều ngôn ngữ và quốc gia khác nhau." },
-        { title: "Đổi mới trước tiên", desc: "Chất vấn lối mòn và mạnh dạn thử nghiệm để tìm ra giải pháp tốt hơn." },
+        { title: "Luôn sáng tạo, không ngừng đổi mới", desc: "Chất vấn lối mòn và mạnh dạn thử nghiệm để tìm ra giải pháp tốt hơn." },
       ],
     },
   },
   blog: {
-    eyebrow: "Blog LoBot",
+    eyebrow: "Blog",
     title: "Tin tức, câu chuyện & cập nhật sản phẩm",
     subtitle: "Theo dõi hành trình của LoBot LLC và các công cụ chúng tôi xây dựng.",
     readMore: "Đọc bài viết",

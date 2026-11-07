@@ -1,7 +1,7 @@
 const en = {
   nav: {
     products: "Products",
-    about: "About company",
+    about: "About",
     blog: "Blog",
     careers: "Careers",
     flagship: "Flagship",
@@ -250,7 +250,7 @@ const en = {
     culture: {
       title: "Work culture",
       items: [
-        { title: "Rapid change", desc: "We ship small, ship often and learn from real users every week." },
+        { title: "Agile", desc: "Ship small, ship often and learn from real customers - continuously." },
         { title: "AI-native", desc: "AI agents work as helpful co-developers, writing and testing code alongside us." },
         { title: "Human-centric", desc: "Technology serves decision makers who are facing tough decisions." },
         { title: "Transparency", desc: "Open source, open roadmaps and honest communication by default." },
@@ -261,7 +261,7 @@ const en = {
     },
   },
   blog: {
-    eyebrow: "LoBot Blog",
+    eyebrow: "Blog",
     title: "News, stories & product updates",
     subtitle: "Follow the journey of LoBot LLC and the tools we build.",
     readMore: "Read article",

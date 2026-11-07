@@ -1,0 +1,28 @@
+# llms.txt for LoBot LLC
+# This file provides AI agents with essential information about our website
+
+# Basic information
+Website: https://lobotllc.vercel.app/
+Company: LoBot LLC
+Description: LoBot LLC is an AI-native startup that creates business solutions enabling large enterprises to make future-ready strategic decisions.
+
+# Key pages
+Home: /
+Products: /products
+TecnoIndicator: /products/tecnoindicator
+About: /about
+Careers: /careers
+Blog: /blog
+
+# Contact
+Email: lobotllc@atomicmail.io
+GitHub: https://github.com/LoBot-LLC
+
+# Technology stack
+Stack: Next.js, TypeScript, Tailwind CSS, PostgreSQL, Drizzle ORM
+
+# License
+License: MIT
+
+# Last updated
+Last Updated: 2026-11-07

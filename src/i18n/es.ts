@@ -3,7 +3,7 @@ import type { Dict } from "./en";
 const es: Dict = {
   nav: {
     products: "Productos",
-    about: "La empresa",
+    about: "Acerca",
     blog: "Blog",
     careers: "Empleo",
     flagship: "Insignia",
@@ -208,7 +208,7 @@ const es: Dict = {
     culture: {
       title: "Cultura de trabajo",
       items: [
-        { title: "Ágil", desc: "Publicamos poco a poco, a menudo, y aprendemos de usuarios reales cada semana." },
+        { title: "Ágil", desc: "Publicamos poco a poco, a menudo, y aprendemos de clientes reales continuamente." },
         { title: "Nativa en IA", desc: "Los agentes de IA trabajan como co-desarrolladores útiles, escribiendo y probando código con nosotros." },
         { title: "Centrada en las personas", desc: "La tecnología sirve a los responsables que enfrentan decisiones difíciles." },
         { title: "Transparencia", desc: "Código abierto, hojas de ruta abiertas y comunicación honesta por defecto." },
@@ -219,7 +219,7 @@ const es: Dict = {
     },
   },
   blog: {
-    eyebrow: "Blog de LoBot",
+    eyebrow: "Blog",
     title: "Noticias, historias y novedades",
     subtitle: "Sigue el camino de LoBot LLC y las herramientas que creamos.",
     readMore: "Leer artículo",
