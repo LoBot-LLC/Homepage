@@ -30,26 +30,27 @@ export function Footer() {
               <LoBotLogo />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{t.footer.description}</p>
-            <a
-              href={GITHUB_ORG}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LoBot LLC on GitHub"
-              data-testid="footer-github"
-              className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
-            >
-              <GithubIcon />
-            </a>
-            <a
-              href="https://lobotllc.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LoBot LLC main website"
-              data-testid="footer-website"
-              className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
-            >
-              <Image src="/favicon.svg" alt="LoBot LLC logo" width={32} height={32} />
-            </a>
+            <div className="mt-5 flex gap-3 justify-end">
+              <a
+                href={GITHUB_ORG}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LoBot LLC on GitHub"
+                data-testid="footer-github"
+                className="h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
+              >
+                <GithubIcon />
+              </a>
+              <a
+                href="https://lobotllc.vercel.app/"
+                rel="noopener noreferrer"
+                aria-label="LoBot LLC main website"
+                data-testid="footer-website"
+                className="h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
+              >
+                <Image src="/favicon.svg" alt="LoBot LLC logo" width={32} height={32} />
+              </a>
+            </div>
           </div>
           <div>
             <h3 className="text-sm font-semibold text-slate-900 dark:text-white">{t.footer.resources}</h3>
