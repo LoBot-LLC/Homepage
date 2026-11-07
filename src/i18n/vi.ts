@@ -219,7 +219,7 @@ const vi: Dict = {
     },
   },
   blog: {
-    eyebrow: "Blog LoBot",
+    eyebrow: "Blog",
     title: "Tin tức, câu chuyện & cập nhật sản phẩm",
     subtitle: "Theo dõi hành trình của LoBot LLC và các công cụ chúng tôi xây dựng.",
     readMore: "Đọc bài viết",
