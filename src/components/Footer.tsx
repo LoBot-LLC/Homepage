@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { LOCALES, useApp } from "./Providers";
 import { GithubIcon, LoBotLogo } from "./Icons";
@@ -38,6 +39,16 @@ export function Footer() {
               className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
             >
               <GithubIcon />
+            </a>
+            <a
+              href="https://lobotllc.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LoBot LLC main website"
+              data-testid="footer-website"
+              className="mt-5 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-slate-300 text-slate-700 transition hover:border-brand-400 hover:text-brand-600 dark:border-white/15 dark:text-slate-300 dark:hover:text-white"
+            >
+              <Image src="/favicon.svg" alt="LoBot LLC logo" width={32} height={32} />
             </a>
           </div>
           <div>
