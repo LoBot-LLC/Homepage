@@ -2,7 +2,7 @@
 # This file provides AI agents with essential information about our website
 
 # Basic information
-Website: https://lobot.llc
+Website: https://lobotllc.vercel.app/
 Company: LoBot LLC
 Description: LoBot LLC is an AI-native startup that creates business solutions enabling large enterprises to make future-ready strategic decisions.
 
@@ -15,7 +15,7 @@ Careers: /careers
 Blog: /blog
 
 # Contact
-Email: contact@lobot.llc
+Email: lobotllc@atomicmail.io
 GitHub: https://github.com/lobot-llc
 
 # Technology stack
