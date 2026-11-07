@@ -1,7 +1,7 @@
 const en = {
   nav: {
     products: "Products",
-    about: "About company",
+    about: "About",
     blog: "Blog",
     careers: "Careers",
     flagship: "Flagship",

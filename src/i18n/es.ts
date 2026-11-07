@@ -3,7 +3,7 @@ import type { Dict } from "./en";
 const es: Dict = {
   nav: {
     products: "Productos",
-    about: "La empresa",
+    about: "Acerca",
     blog: "Blog",
     careers: "Empleo",
     flagship: "Insignia",
