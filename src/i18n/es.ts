@@ -219,7 +219,7 @@ const es: Dict = {
     },
   },
   blog: {
-    eyebrow: "Blog de LoBot",
+    eyebrow: "Blog",
     title: "Noticias, historias y novedades",
     subtitle: "Sigue el camino de LoBot LLC y las herramientas que creamos.",
     readMore: "Leer artículo",
