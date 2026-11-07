@@ -73,8 +73,8 @@ const es: Dict = {
       ],
     },
     ai: {
-      eyebrow: "El núcleo de IA",
-      title: "IA integrada en cada capa del ecosistema",
+      eyebrow: "El pila de IA",
+      title: "Herramientas de IA integrada en cada capa del ecosistema",
       subtitle:
         "Nuestras herramientas de IA reúnen evidencia, razonan sobre ella y ofrecen recomendaciones precisas basadas en los datos que recopilan y analizan — mientras los respaldos deterministas mantienen la plataforma estable.",
       features: [
@@ -174,7 +174,7 @@ const es: Dict = {
       ],
     },
     deliver: {
-      title: "El valor que aporta LoBot",
+      title: "El valors de LoBot",
       items: [
         "Herramientas de optimización logística para seguimiento y decisiones en tiempo real",
         "Soluciones de productividad que se integran con los flujos existentes",
@@ -185,7 +185,7 @@ const es: Dict = {
     },
     stack: { title: "Stack tecnológico", subtitle: "Tecnologías web modernas y frameworks open source probados." },
     milestones: {
-      title: "Hitos de la empresa",
+      title: "El viaje meticuloso del LoBot",
       items: [
         { date: "Sep 2026", title: "Nace TecnoIndicator", desc: "Nuestra app insignia de pronóstico de precios de energía se publica como código abierto." },
         { date: "Oct 2026", title: "Se funda LoBot LLC", desc: "LoBot LLC se funda oficialmente." },

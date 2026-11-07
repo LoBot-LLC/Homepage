@@ -213,7 +213,7 @@ const en = {
       ],
     },
     deliver: {
-      title: "The value LoBot delivers",
+      title: "LoBot's values",
       items: [
         "Logistics optimization tools for real-time tracking and decision-making",
         "Business productivity solutions that integrate with existing workflows",
@@ -227,7 +227,7 @@ const en = {
       subtitle: "Modern web technologies and proven open-source frameworks.",
     },
     milestones: {
-      title: "LoBot's bumpy journey",
+      title: "LoBot's meticulous journey",
       items: [
         { date: "Sep 2026", title: "TecnoIndicator is born", desc: "Our flagship energy price forecasting app is released as open source." },
         { date: "Oct 2026", title: "LoBot LLC is founded", desc: "LoBot LLC is officially founded." },
@@ -235,7 +235,7 @@ const en = {
       ],
     },
     community: {
-      title: "Open-source community",
+      title: "LoBot's Open-source community",
       subtitle: "Live statistics from the LoBot-LLC GitHub organization.",
       developers: "Developers (est.)",
       developersNote: "developers + AI agents",

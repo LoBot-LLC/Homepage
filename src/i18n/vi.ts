@@ -29,7 +29,7 @@ const vi: Dict = {
   },
   home: {
     hero: {
-      badge: "AI-native · Mã nguồn mở · Dành cho người ra quyết định",
+      badge: "AI-native · Mã nguồn mở · Dành cho các doanh nghiệp",
       title1: "Quyết định sẵn sàng cho tương lai dành cho",
       title2: "lãnh đạo kinh doanh & logistics",
       subtitle:
@@ -73,7 +73,7 @@ const vi: Dict = {
       ],
     },
     ai: {
-      eyebrow: "Lõi AI",
+      eyebrow: "Công cụ AI",
       title: "AI hiện diện trong mọi lớp của hệ sinh thái",
       subtitle:
         "Các công cụ AI thu thập bằng chứng, suy luận và đưa ra khuyến nghị chính xác dựa trên dữ liệu thu thập và phân tích được — trong khi cơ chế dự phòng xác định giúp ổn định nền tảng.",
@@ -100,7 +100,7 @@ const vi: Dict = {
     },
   },
   product: {
-    back: "Tất cả sản phẩm",
+    back: "Sản phẩm",
     tagline: "Dự báo thời gian thực 10 năm cho giá dầu, điện & nước toàn cầu.",
     intro:
       "TecnoIndicator là sản phẩm chủ lực của LoBot: ứng dụng web hiện đại tích hợp AI, cung cấp dự báo giá năng lượng với biểu đồ tương tác, phân tích kịch bản và các yếu tố động — giúp nhà quản lý lập ngân sách, phòng ngừa rủi ro và tự tin đưa ra kế hoạch hợp lý.",
