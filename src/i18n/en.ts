@@ -261,7 +261,7 @@ const en = {
     },
   },
   blog: {
-    eyebrow: "LoBot Blog",
+    eyebrow: "Blog",
     title: "News, stories & product updates",
     subtitle: "Follow the journey of LoBot LLC and the tools we build.",
     readMore: "Read article",
