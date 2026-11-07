@@ -1,0 +1,43 @@
+# Robots.txt for LoBot LLC
+# Allow all AI agents, crawlers, and search engines to fully access the site
+
+User-agent: *
+Allow: /
+
+# Specific AI crawlers and LLMs
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: BingBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: TwitterBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Allow all common AI crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: /sitemap.xml
