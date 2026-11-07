@@ -30,7 +30,7 @@ export function Footer() {
               <LoBotLogo />
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-slate-600 dark:text-slate-400">{t.footer.description}</p>
-            <div className="mt-5 flex gap-3 justify-end">
+            <div className="mt-5 flex gap-3">
               <a
                 href={GITHUB_ORG}
                 target="_blank"
