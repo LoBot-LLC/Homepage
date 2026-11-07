@@ -214,7 +214,7 @@ const vi: Dict = {
         { title: "Minh bạch", desc: "Mã nguồn mở, lộ trình mở và giao tiếp trung thực." },
         { title: "Gần gũi, thân thiện với người dùng", desc: "Cộng đồng LoBot luôn gần gũi với người dùng — mỗi phản hồi định hình mỗi bản phát hành mới cho các sản phẩm LoBot." },
         { title: "Cộng đồng quốc tế đông đảo", desc: "Đội ngũ và cộng đồng phân tán ở nhiều ngôn ngữ và quốc gia khác nhau." },
-        { title: "Đổi mới trước tiên", desc: "Chất vấn lối mòn và mạnh dạn thử nghiệm để tìm ra giải pháp tốt hơn." },
+        { title: "Luôn sáng tạo, không ngừng đổi mới", desc: "Chất vấn lối mòn và mạnh dạn thử nghiệm để tìm ra giải pháp tốt hơn." },
       ],
     },
   },
