@@ -17,7 +17,7 @@ export const SEED_POSTS: PublicPost[] = [
     translations: {
       en: {
         title:
-          "How Operation Epic Fury, the ongoing Middle East wars and their effects worldwide on global oil prices greatly inspired the launch of LoBot TecnoIndicator",
+          "How Operation Epic Fury and the ongoing Middle East wars greatly inspired the launch of LoBot TecnoIndicator",
         excerpt:
           "The 2026 Middle East conflict and the historic disruption of global oil flows exposed how fragile planning can be. Here is how those events shaped LoBot TecnoIndicator and how it helps leaders prepare for volatility.",
         body: [
