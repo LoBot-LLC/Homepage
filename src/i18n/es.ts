@@ -228,6 +228,9 @@ const es: Dict = {
     minRead: "min de lectura",
     empty: "Aún no hay publicaciones; vuelve pronto.",
     notFound: "Publicación no encontrada",
+    tryTecnoIndicator: "Probar TecnoIndicator",
+    applyNow: "¡Postúlate ahora!",
+    references: "Referencias",
   },
   careers: {
     eyebrow: "Empleo en LoBot",

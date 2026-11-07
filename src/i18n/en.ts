@@ -270,6 +270,9 @@ const en = {
     minRead: "min read",
     empty: "No posts yet — check back soon.",
     notFound: "Post not found",
+    tryTecnoIndicator: "Try TecnoIndicator",
+    applyNow: "Apply now!",
+    references: "References",
   },
   careers: {
     eyebrow: "Careers at LoBot",
