@@ -142,17 +142,30 @@ src/
 │   │   ├── page.tsx               # Blog index page
 │   │   └── [slug]/page.tsx        # Blog post page
 │   ├── products/                  # Product pages
+│   │   ├── page.tsx               # Products overview
+│   │   └── tecnoindicator/        # TecnoIndicator product page
+│   │       └── page.tsx
 │   ├── careers/                   # Careers page
+│   │   └── page.tsx
 │   ├── about/                     # About page
+│   │   └── page.tsx
 │   ├── layout.tsx                 # Root layout
 │   ├── page.tsx                   # Homepage
-│   └── globals.css                # Global styles
+│   ├── globals.css                # Global styles
+│   └── not-found.tsx              # 404 page
 ├── components/
 │   ├── pages/                     # Page-level components
-│   ├── ui.tsx                     # Reusable UI components
-│   ├── Icons.tsx                  # SVG icons
+│   │   ├── AboutContent.tsx
+│   │   ├── BlogContent.tsx
+│   │   ├── CareersContent.tsx
+│   │   ├── HomeContent.tsx
+│   │   └── ProductContent.tsx
+│   ├── Navbar.tsx                 # Main navigation
+│   ├── Footer.tsx                 # Site footer
 │   ├── Providers.tsx              # React context providers (i18n, theme)
-│   └── ...
+│   ├── CopyEmail.tsx              # Email copy component
+│   ├── Icons.tsx                  # SVG icons
+│   └── ui.tsx                     # Reusable UI components
 ├── db/
 │   ├── index.ts                   # Lazy-initialized Drizzle client (getDb())
 │   └── schema.ts                  # Blog posts schema
@@ -163,7 +176,16 @@ src/
 │   ├── en.ts                      # English translations
 │   ├── es.ts                      # Spanish translations
 │   └── vi.ts                      # Vietnamese translations
-└── ...
+└── middleware.ts                  # i18n request middleware
+```
+
+**Public assets:**
+```
+public/
+├── favicon.svg                    # Site favicon
+├── robots.txt                     # AI agent & crawler access rules
+├── llms.txt                       # Website metadata for AI agents
+└── sitemap.xml                    # XML sitemap for search engines
 ```
 
 ---
